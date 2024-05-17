@@ -100,7 +100,7 @@ There're 2 options you can follow to map your domain with the edge service. Only
 
 #### 7.1 Nginx
 
-Go too your DNS service, add A record your domain to IP **WITHOUT proxy** (DNS only).
+Go to your DNS service, add A record your domain to IP **WITHOUT proxy** (DNS only).
 
 ![proxy off](./images//proxy-off.png)
 
@@ -169,7 +169,7 @@ sudo service nginx restart
 
 #### 7.2 Cloudflare forward
 
-Go too your Cloudflare DNS service, add A record your domain to IP **WITH proxy**.
+Go to your Cloudflare DNS service, add A record your domain to IP **WITH proxy**.
 
 ![proxy on](./images//proxy-on.png)
 
