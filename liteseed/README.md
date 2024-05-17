@@ -80,6 +80,9 @@ sudo docker run -p $EXTERNAL_PORT:8080 -v liteseed:/data edge start
 
 There're 2 options you can follow to map your domain with the edge service. Only choose 1.
 
+- [7.1 Nginx](#71-nginx)
+- [7.2 Cloudflare forward](#72-cloudflare-forward)
+
 #### 7.1 Nginx
 
 Go too your DNS service, add A record your domain to IP **WITHOUT proxy** (DNS only).
