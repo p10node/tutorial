@@ -57,7 +57,7 @@ sudo docker run -v liteseed:/data edge generate
 Backup your wallet
 
 ```bash
-cat /var/lib/docker/volumes/liteseed/_data/signer.json
+sudo cat /var/lib/docker/volumes/liteseed/_data/signer.json
 ```
 
 Save the information that appears
@@ -81,7 +81,14 @@ sudo docker run -v liteseed:/data edge migrate
 
 ```bash
 export EXTERNAL_PORT=8080 # change it if you want
-sudo docker run -p $EXTERNAL_PORT:8080 -v liteseed:/data edge start 
+sudo docker run -p $EXTERNAL_PORT:8080 -v liteseed:/data edge start
+```
+
+You can use `tmux`, `screen` or just add param `-d` for running in background.
+
+```bash
+export EXTERNAL_PORT=8080 # change it if you want
+sudo docker run -d -p $EXTERNAL_PORT:8080 -v liteseed:/data edge start
 ```
 
 ### 7. Domain record
