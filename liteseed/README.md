@@ -161,7 +161,7 @@ Click on `+ Create rule`, set your `Rule name (required)` and config field `Host
 
 And `Rewrite to...` your port. (8080)
 
-![proxy port](./images//proxy-port.png)
+<img src="./images//proxy-port.png" width="480" alt="proxy port" />
 
 
 Then click `deploy`.
@@ -196,3 +196,7 @@ sudo docker run -v liteseed:/data edge stake -u $DOMAIN
 ## Community
 
 https://t.me/p10node
+
+## Tags
+
+`ar`, `liteseed`, `docker`, `go`, `domain`
