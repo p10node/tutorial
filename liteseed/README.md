@@ -2,7 +2,15 @@
 
 ## Origin document
 
-https://docs.liteseed.xyz/operators/running-a-node
+- https://github.com/liteseed/edge
+- https://docs.liteseed.xyz/operators/running-a-node
+
+## System Requirements
+
+- CPU - 1GHz
+- Memory - 1GiB
+- Storage - 8GiB
+- OS - Linux
 
 ## Steps
 
