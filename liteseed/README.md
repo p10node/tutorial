@@ -203,8 +203,8 @@ Check if your domain return data like that:
 Then you good to stake
 
 ```bash
-export DOMAIN=<your-domain>
-sudo docker run -v liteseed:/data edge stake -u $DOMAIN
+export URL="<your-url>" # example: https://liteseed.p10node.com/
+sudo docker run -v liteseed:/data edge stake -u "$URL"
 ```
 
 > [!WARNING]  
