@@ -65,17 +65,11 @@ You will see a result like that:
 Store the data in "result", you will need it in the next step.
 
 - Go to https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.analog.one#/staking/actions
-- Click on + Stash
-- Choose your account with value bonded, choose your payment destination (leave a little amount for gas)
-- Click on Bond
-- Click on Sign and Submit
-
-On the dashboard
-
-- Click on Session Key
-- Add your data above
-- Click on Set Session Key
-- Click on Sign and Submit
+- Click on + Validator
+- Choose your account with value bonded (>0.9), choose your payment destination (leave a little amount for gas)
+- Click on Next
+- Paste your data above to keys from rotatekeys. Config your reward commission percentage (<10)
+- Click on Bond & Validate
 
 ## 4. Misc
 
