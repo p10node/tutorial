@@ -13,8 +13,8 @@ sudo nano ~/.viper/config/blockchains.json
   ...,
   {
     "id": "0003",
-    "url": "https://sui-rpc.publicnode.com",
-    "websocket_url": "wss://sui-rpc.publicnode.com/websocket",
+    "url": "https://sui-testnet-rpc.publicnode.com:443",
+    "websocket_url": "wss://sui-testnet-rpc.publicnode.com:443/websocket",
     "basic_auth": {
       "username": "",
       "password": ""
